@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>{{ page.title }}</title>
+</head>
 <body>
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    {% include navigation.html %}
+    <div class="container">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
 </body>
 </html>

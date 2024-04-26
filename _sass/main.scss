@@ -1,0 +1,52 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a, p, ul li, ol li {
+    font-size: 1.3rem;
+}
+
+.navigation {
+    max-width: 1400px;
+    margin: auto;
+    background-color: black;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    font-size: 1rem;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none !important;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    
+}
